@@ -1,8 +1,7 @@
 # Processes and signals
 
-- How to use `Process Identification Numbers` and `Signals` in Linux
-Bellow are the commands that I used:
-`ps`, `pgrep`, `pkill`, `pkill`, `exit`, and `trap`.
+In this project, I learned about handling process ID's and signals in Bash
+with `ps`, `pgrep`, `pkill`, `pkill`, `exit`, and `trap`.
 
 ## Tasks :page_with_curl:
 
@@ -28,12 +27,12 @@ Bellow are the commands that I used:
   * [4-to_infinity_and_beyond](./4-to_infinity_and_beyond): Bash script that displays
   `To infinity and beyond` indefinitely with a `sleep 2` in between each iteration.
 
-* **5. Kill me now**
-  * [5-kill_me_now](./5-kill_me_now): Bash script that kills the
+* **5. Don't stop me now!**
+  * [5-dont_stop_me_now](./5-dont_stop_me_now): Bash script that kills the
   [4-to_infinity_and_beyond](./4-to_infinity_and_beyond) process using `kill`.
 
-* **6. Kill me now made easy**
-  * [6-kill_me_now_made_easy](./6-kill_me_now_made_easy): Bash script that kills the
+* **6. Stop me if you can**
+  * [6-stop_me_if_you_can](./6-stop_me_if_you_can): Bash script that kills the
   [4-to_infinity_and_beyond](./4-to_infinity_and_beyond) process using `pkill`.
 
 * **7. Highlander**
@@ -77,6 +76,6 @@ Bellow are the commands that I used:
   * Otherwise, displays `Usage: manage_my_process {start|stop|restart}`.
 
 * **11. Zombie**
-  * [102-zombie.c](./102-zombie.c): C program that creates five zombie processes.
+  * [102-zombie.c](102-zombie.c): C program that creates five zombie processes.
   * For every zombie created, displays `Zombie process created, PID:
   <ZOMBIE_PID>`.
