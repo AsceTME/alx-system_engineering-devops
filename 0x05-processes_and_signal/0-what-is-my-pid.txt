@@ -1,5 +1,4 @@
-#!/usr/bin/env bash
-# my pid
+#!/bin/bash
 
-sleep 5 &
-echo "$!"
+# Display the PID of the current script
+echo "PID of the current script: $$"
